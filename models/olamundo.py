@@ -7,7 +7,7 @@ class odoo_olamundo(models.Model):
     _name = 'odoo_olamundo.olamundo'
     _description = 'Exemplo olamundo'
 
-    name = fields.Char(string="Ola Mundo:")
+    name = fields.Char(string="Ola Mundos:")
     campo1 = fields.Text(string="Campo 1:")
 #     value = fields.Integer()
 #     value2 = fields.Float(compute="_value_pc", store=True)
